@@ -131,47 +131,6 @@ p {
   background: transparent;
   border-bottom: 2px solid var(--soft-red);
 }
-/* Extension content */
-.extension__content div:nth-child(2) article {
-  margin-top: 3rem;
-}
-.extension__content div:last-child article {
-  margin-top: 6rem;
-}
-/* Questions content */
-.questions .card {
-  border-left: 0;
-  border-right: 0;
-  border-radius: 0;
-}
-.questions .card .card-header {
-  background-color: transparent;
-}
-.questions .card .btn {
-  position: relative;
-}
-.questions .card .btn:hover {
-  color: var(--soft-red);
-}
-.questions .card .btn::before {
-  content: "";
-  background-size: contain;
-  width: 1rem;
-  height: 1rem;
-  vertical-align: middle;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.questions .card .btn.active {
-  color: var(--soft-red);
-}
-.questions .card .btn.active::before {
-  transform: translateY(-50%) rotate(180deg);
-  filter: hue-rotate(115deg);
-}
-/* Call to action */
 
 /* Responsive */
 @media screen and (max-width: 991px) {
