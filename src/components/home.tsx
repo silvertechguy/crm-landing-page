@@ -1,7 +1,17 @@
 import React from "react";
+import { Container } from "react-bootstrap";
+import Header from "./header";
+import Content from "./content";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <main className="home">
+      <Container>
+        <Header />
+        <Content />
+      </Container>
+    </main>
+  );
 };
 
 export default Home;
