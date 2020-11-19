@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Pricing = () => {
   return (
-    <section className="pricing" id="pricing">
+    <section className="pricing my-5" id="pricing">
       <Container>
         <article className="text-center py-3">
           <h3>Pricing</h3>

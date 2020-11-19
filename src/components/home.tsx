@@ -5,6 +5,7 @@ import Content from "./content";
 import Features from "./features";
 import Pricing from "./pricing";
 import Faqs from "./faqs";
+import CallToAction from "./call-to-action";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <Pricing />
         <Faqs />
       </Container>
+      <CallToAction />
     </main>
   );
 };
