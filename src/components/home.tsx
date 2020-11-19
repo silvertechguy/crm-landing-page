@@ -6,6 +6,7 @@ import Features from "./features";
 import Pricing from "./pricing";
 import Faqs from "./faqs";
 import CallToAction from "./call-to-action";
+import Footer from "./footer";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         <Faqs />
       </Container>
       <CallToAction />
+      <Footer />
     </main>
   );
 };

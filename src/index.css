@@ -29,6 +29,7 @@ h4,
 h5,
 h6 {
   text-transform: none;
+  font-weight: 500;
 }
 
 body {
@@ -191,6 +192,22 @@ p {
   border: 1px solid var(--soft-red);
 }
 
+/* Footer */
+footer {
+  background: var(--dark);
+  color: var(--neutral);
+}
+footer nav {
+  margin-left: 3rem;
+}
+footer a {
+  color: var(--neutral);
+}
+footer a:hover {
+  text-decoration: none;
+  color: var(--soft-red);
+}
+
 /* Responsive */
 @media screen and (max-width: 991px) {
   /* menu */
@@ -218,6 +235,18 @@ p {
 @media screen and (max-width: 768px) {
   .features__content .nav-pills {
     flex-direction: column;
+  }
+
+  footer .d-flex {
+    flex-direction: column;
+  }
+  footer nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    text-transform: uppercase;
+    margin: 2rem 0;
   }
 }
 
