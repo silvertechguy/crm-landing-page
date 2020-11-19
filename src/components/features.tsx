@@ -15,18 +15,20 @@ const features = () => {
         </article>
         <section className="features__content">
           <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-            <Nav variant="pills" className="flex-column">
+            <Nav variant="pills" className="justify-content-center mb-3">
               <Nav.Item>
-                <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                <Nav.Link eventKey="first">easy to use and to scale 1</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                <Nav.Link eventKey="second">
+                  easy to use and to scale 2
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                <Nav.Link eventKey="third">easy to use and to scale 3</Nav.Link>
               </Nav.Item>
             </Nav>
-            <Tab.Content>
+            <Tab.Content className="my-5">
               <Tab.Pane eventKey="first">
                 <Row className="align-items-center">
                   <Col md={12} lg={6} className="mb-4">
