@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-const pricing = () => {
+const Pricing = () => {
   return (
-    <section className="pricing" id="pricing">
+    <section className="pricing my-5" id="pricing">
       <Container>
         <article className="text-center py-3">
           <h3>Pricing</h3>
@@ -94,4 +94,4 @@ const pricing = () => {
   );
 };
 
-export default pricing;
+export default Pricing;
