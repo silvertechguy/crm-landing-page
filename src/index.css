@@ -142,6 +142,10 @@ p {
   border-bottom: 2px solid var(--soft-red);
 }
 
+.nav-item {
+  margin-right: 0;
+}
+
 /* Pricing content */
 .pricing__content div:nth-child(2) article {
   margin-top: 3rem;
